@@ -1,2 +1,2 @@
 # websit4e
-My data portfolio website
+This repository contains the code for my website.
