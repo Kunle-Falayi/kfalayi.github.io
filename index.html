@@ -1,372 +1,42 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather:400,300,400italic,700|Open+Sans:300);
-
-* {
-	box-sizing: border-box;
-}
-body {
-	font-family: 'Merriweather';
-	color: rgb(0, 0, 0);
-	background:#ffffff;
-	font-size: 16px;
-    line-height: 1.5;
-    font-weight: 300;
-}
-h1, h2, h3, h4 {
-	font-family: 'Montserrat';
-	color:rgb(97, 95, 95);
-	
-	font-weight:800;
-}
-
-span.name {
-	font-family: 'Montserrat';
-    color: #333;
-    font-weight: 700;
-    font-size: 2em;
-}
-p {
-	font-family: 'Merriweather';
-}
-
-a {
-	font-family: 'Montserrat';
-	font-weight: 700;
-    color: #428bca;
-    text-decoration: none;
-}
-.check{
-	color:#8f1818 !important;
-	/* border:1px solid #ddd; */
-	padding: 7.5px;
-
-	/* text-decoration: underline; */
-}
- a:hover {
- 	text-decoration: underline;
- }
-.about {
-	/*display: inline-block;*/
-}
-.about .hed {
-	width: 40%;
-	padding-right: 15px;
-	/*float: left;*/
-	vertical-align: top;
-	display: inline-block;
-}
-.about .content {
-	width: 50%;
-	padding-left: 10px;
-	display: inline-block;
-}
-
-.hed .me {
-	width: 150px;
-	/*height: 150px;*/
-	/*-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;*/
-	border-radius: 50%;
-	box-shadow: -3px 3px 3px -2px #ccc; 
-	display:block;
-	margin:auto;
-	margin-bottom: 10px;
-}
-.subtitle {
-	letter-spacing: 1px;
-	font-family:'Open Sans', sans-serif;
-	color:#555;
-	/*text-align: center;*/
-}
-
-div.award{
-	margin-top: 20px;
-}
-.award .subtitle {
-	margin-top: 0px;
-}
-.award .title {
-	margin: 0px;
-}
-
-
-.header {
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: 400;
-}
-/* This is just kinda ugly and doesn't really work.
-@media (min-width: 600px){
-	.section{
-		border-left:thin solid;
-	}
-}
-
-*/
-
-.education {
-	text-align:center;
-}
-
-hr {
-	    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #eee;
-
-}
-/*.top {
-	margin-top: 50px;
-	margin-bottom: -10px;
-}
-*/
-.right{
-	text-align: right;
-}
-
-.left{
-	text-align: left;
-}
-.resumeresume {
-	text-align: center;
-	font-size:1.3em;
-
-}
-
-@media (min-width: 768px){
-	.about{
-		
-		margin-left:15%;
-		margin-right:15%;
-	}
-}
-@media (max-width: 560px) {
-	.about {
-	}
-	.top .subtitle {
-		display:none;
-	}
-	.desktop {
-		display: none;
-	}
-	.top {
-		text-align: center;
-	}
-	.about .hed {
-		/*float:none;*/
-		width: 100%;
-		margin: 0 auto;
-	}
-	.about .content {
-		width: 100%;
-	}
-}
-
-/*.job {
-	text-align: center;
-	box-shadow: 0px 0px 1px 1px #ccc; 
-	margin: 1em 0em;
-	padding: 1em .5em; 
-	
-}
-*/
-/*.project {
-	box-shadow: 0px 0px 5px 1px #ccc; 
-	margin: 2em 0em;
-	
-	padding: .5em 1.3em; 
-	
-}
-*/
-
-
-.job .place {
-	font-family: 'Montserrat';
-	font-size: 1.6em;
-	font-weight: 700;
-	color:#666;
-	margin-bottom: 10px;
-}
-.job .title {
-	margin-top: 10px; 
-	font-family: 'Montserrat';
-	font-size: 1em;
-	font-weight: 700;
-}
-
-
-.description{
-	text-align: left;
-}
-
-.skill {
-	text-align: center;
-	/*
-	box-shadow: 0px 0px 5px 1px #ccc; 
-	margin: 2em;
-	padding: 2em; 
-	*/
-}
-
-.school {
-	text-align: center;
-}
-
-
-.heading h2{
-	font-size:3em;
-}
-
-.buttons{
-
-	text-align: center;
-	font-size: 1.3em;
-	/*display: inline-block;*/
-}
-
-.buttons a {
-	margin: 20px;
-}
-strong{
-
-	font-family: "Montserrat";
-	font-weight: 700;
-
-}
-.divider{
-	border-color: #CCC;
-	border-width: 1px;
-}
-
-.di{
-
-	padding:1em 1em;
-	box-shadow: 0px 0px 1px 0px #555;
-
-}
-.headerthing{
-	
-	width:50%;
-}
-/*
-.section-head {
-	border-top:thin solid;
-	border-bottom: thin solid;
-	border-color: #CCC;
-
-}
-*/
-
-.project .sample {
-	width:100%;
-	height:auto;
-
-}
-
-.more{
-	text-align: center;
-	font-family: 'Montserrat';
-	font-weight: 700;
-}
-
-.more:hover {
-	cursor: pointer;
-}
-.more_info{
-	display: none;
-}
-
-.post-list {
-  margin-left: 0;
-  list-style: none;
-  text-align: center; }
-  .post-list > li {
-
-    margin-bottom: 30px;
-    display: inline-block;
-    width: 200px;
-    vertical-align: top;
-    margin: 20px;
-    text-align: center; }
-    .post-list > li .image {
-      height: 180px;
-      width: 180px;
-      background-size: cover;
-      border: solid 1px #ddd;
-      background-position: center;
-      display: inline-block; }
-      .post-list > li .image.shadow {
-        box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.07); }
-      .post-list > li .image.border {
-        border: 1px solid #f0f0f0; }
-    .post-list > li .title {
-      font-size: 13px;
-      line-height: 1.3em;
-      text-align: center;
-      color: #000; }
-      .post-list > li .title span {
-        font-size: 11px;
-        color: #868482;
-        font-weight: 300; }
-        .post-list > li .title span {
-          color: #868482;
-          font-weight: 300;
-
-          white-space: nowrap; }
-        .post-list > li .title span.post-meta {
-          white-space: nowrap; }
-@media screen and (max-width: 400px) {
-  .post-list > li {
-    width: 100%;
-    margin: 20px 0 40px; }
-    .post-list > li .image {
-      height: 280px;
-      width: 280px;
-      background-size: cover;
-      background-position: center;
-      display: inline-block; }
-    .post-list > li .title {
-      font-size: 16px; }
-      .post-list > li .title .post-meta {
-        font-size: 14px; }
-
-  .social-media-list li {
-    display: block; } }
-
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  margin: 30px;
-  margin-bottom: 60px;
-  line-height: 1;
-  font-weight: 100;
-  text-align: center; }
-  .post-title span {
-    color: #b8b7b6; }
-  .post-title {
-    font-weight: 100 !important;
-    color: #b8b7b6; }
-  @media screen and (max-width: 800px) {
-    .post-title {
-      font-size: 36px; } }
-
-.post-content {
-  margin-bottom: 30px; }
-  .post-content h2 {
-    font-size: 32px; }
-    .post-content h2 a {
-      font-weight: 300; }
-      .post-content h2 a:hover {
-        text-decoration: none; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 28px; } }
-  .post-content h3 {
-    font-size: 26px; }
-    @media screen and (max-width: 800px) {
-      .post-content h3 {
-        font-size: 22px; } }
-  .post-content h4 {
-    font-size: 20px; }
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        font-size: 18px; } }
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kunle Falayi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="container">
+      <p class="top">
+        <span class="name" width="240" height="200">KUNLE FALAYI</span>
+      </p>
+        <hr>
+        <div class="buttons">
+          <a href="portfolio.html">
+            <span class="check">Portfolio</span>
+          </a>
+          <a href="resume.html">
+            <span class="check">Resume</span>
+          </a>
+        </div>
+        <hr>
+        <div class="about">
+          <div class="hed">
+            <img class="me" src="kay.jpeg">
+          </div>
+          <div class="content">
+            <h3>Hi, my name is Kunle Falayi.</h3>
+              <p>I'm a business journalist at the BBC covering Anglophone West Africa.</p>
+              <p>I am currently studying Data Journalism at the 
+                <a href="https://journalism.columbia.edu/" target="_blank">Columbia Journalism School.</a>
+              </p> 
+              <p>You can contact me by email at oaf2125@columbia.edu
+                or 
+                Find me on Twitter  
+                <a href="https://twitter.com/KFalayi" target="_blank">here.</a>
+              </p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
