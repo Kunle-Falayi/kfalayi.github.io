@@ -35,6 +35,9 @@ a {
     	color: #428bca;
     	text-decoration: none;
 }
+img {
+	margin: 4px;
+}
 .check{
 	color:#8f1818 !important;
 	/* border:1px solid #ddd; */
