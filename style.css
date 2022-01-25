@@ -36,7 +36,8 @@ a {
     	text-decoration: none;
 }
 img {
-	margin: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 .check{
 	color:#8f1818 !important;
