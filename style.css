@@ -134,9 +134,8 @@ img {
 	border-radius: 50%;
 	box-shadow: -3px 3px 3px -2px #ccc; 
 	display:block;
-	/*margin-top: 16px;
-	margin-bottom: 10px;*/
-	margin: 20px;
+	margin-top: 20px;
+	margin-left: 20px
 }
 .subtitle {
 	letter-spacing: 1px;
