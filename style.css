@@ -55,12 +55,13 @@ img {
     	font-size: 1.4em;
     	padding: 0em 2em 1.5em 2em;
     	text-align: right;
-		color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 }
 .publisher {
 	font-family: 'Merriweather';
 	font-size: 11px;
 	text-align: left;
+	font-weight: 150px
 }
 		
 .fab, .far {
