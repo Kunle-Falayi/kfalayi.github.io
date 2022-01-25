@@ -48,9 +48,11 @@ img {
  a:hover {
  	text-decoration: underline;
  }
-/*.about {
-	/*display: inline-block;
-}*/
+.about {
+	text-align: center;
+	margin: 0px 40px;
+	
+}
 .rrss {
     	font-size: 1.4em;
     	padding: 0em 2em 1.5em 2em;
