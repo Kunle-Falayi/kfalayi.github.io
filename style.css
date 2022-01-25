@@ -48,11 +48,7 @@ a {
 img {
 	margin-top: 20px;
 	margin-left: 20px
-svg { 
-	font-size: 16px 16px;	
-}
-path {
-	font-size: 16px 16px
+
 }
 .check{
 	color:#8f1818 !important;
@@ -71,11 +67,10 @@ path {
 }
 
 .intro-buttons {
-	font-size: 16px
-    	display: flex;
-    	flex-direction: row;
-    	align-items: baseline;
-    	margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 10px;
 }
 .social-button, .social-button:hover, .social-button:visited {
     color: var(--accent);
@@ -329,7 +324,6 @@ strong{
 	border-top:thin solid;
 	border-bottom: thin solid;
 	border-color: #CCC;
-
 }
 */
 
