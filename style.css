@@ -65,14 +65,15 @@ img {
 	margin: 40px 40px;
 	
 }
-.rrss {
-    	font-size: 1.4em;
-    	padding: 0em 2em 1.5em 2em;
-    	text-align: right;
-	color: rgb(0, 0, 0);
-	text-align: center;
+.social-button, .social-button:hover, .social-button:visited {
+    color: var(--accent);
+    margin: 0;
+    padding: 2px 5px;
+    transition: var(--fastFade);
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
 }
-
 .demo-icon {
 	color: rgb(0, 0, 0);
    	font-family: "fontello";
