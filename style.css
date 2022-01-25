@@ -65,6 +65,13 @@ img {
 	margin: 40px 40px;
 	
 }
+
+.intro-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 10px;
+}
 .social-button, .social-button:hover, .social-button:visited {
     color: var(--accent);
     margin: 0;
