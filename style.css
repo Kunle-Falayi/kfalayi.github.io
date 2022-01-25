@@ -59,7 +59,9 @@ img {
     	padding: 0em 2em 1.5em 2em;
     	text-align: right;
 	color: rgb(0, 0, 0);
+	text-align: center;
 }
+
 .publisher {
 	font-family: 'Merriweather';
 	font-size: 11px;
