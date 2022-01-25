@@ -48,7 +48,11 @@ a {
 img {
 	margin-top: 20px;
 	margin-left: 20px
-
+svg { 
+	font-size: 16px 16px;	
+}
+path {
+	font-size: 16px 16px
 }
 .check{
 	color:#8f1818 !important;
