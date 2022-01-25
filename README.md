@@ -1,2 +1,2 @@
 # Kunle Falayi's Website
-This repository contains the code for my website.
+This repository contains the codes for my website.
