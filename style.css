@@ -312,8 +312,8 @@ strong{
     margin: 20px;
     text-align: center; }
     .post-list > li .image {
-      height: 240px;
-      width: 180px;
+      height: 180px;
+      width: 240px;
       background-size: cover;
       border: solid 1px #ddd;
       background-position: center;
