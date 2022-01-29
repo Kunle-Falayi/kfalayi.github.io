@@ -39,6 +39,14 @@ p {
 	text-align: center;
 }
 
+.status__light__led {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #A80E2B;
+    border-radius: 100%;
+}
+
 a {
 	font-family: 'Montserrat';
 	font-weight: 700;
