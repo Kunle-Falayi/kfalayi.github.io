@@ -8,7 +8,7 @@ body {
 	color: rgb(0, 0, 0);
 	background:#ffffff;
 	font-size: 16px;
-    	line-height: 1.5;
+    line-height: 1.5;
    	font-weight: 300;
 }
 h1 {
@@ -20,31 +20,34 @@ h1 {
 	text-align: center;
 }
 
-h2, h3, h4 {
+h2 {
 	font-family: 'Montserrat';
 	color:rgb(80, 78, 78);
 	margin: 16px;
 	font-weight:800;
+	text-align: center;
+}
+
+h3, h4 {
+	font-family: 'Montserrat';
+	color:rgb(80, 78, 78);
+	margin: 16px;
+	font-weight:800;
+	text-align: center;
 }
 
 span.name {
 	font-family: 'Montserrat';
-    	color: #333;
-    	font-weight: 700;
-    	font-size: 2em;
+    color: #333;
+    font-weight: 700;
+    font-size: 2em;
 	text-align: center;
 }
 p {
+	margin-left: 120px;
+	margin-right: 120px;
 	font-family: 'Merriweather';
-	text-align: center;
-}
-
-.status__light__led {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    background: #A80E2B;
-    border-radius: 100%;
+	text-align: justify;
 }
 
 a {
@@ -53,11 +56,36 @@ a {
     	color: #428bca;
     	text-decoration: none;
 }
-img {
+div.center {
 	margin-top: 20px;
-	margin-left: 20px
-
+	margin-bottom: 0px;
+	margin-right: 40px;
+	margin-left: 40px;
 }
+
+div.story-photo {
+	display: flex;
+	justify-content: center;
+}
+
+div.animation{
+	display: flex;
+	text-align: center;
+}
+.bottom-left{
+	margin: 0;
+	font-family: 'Merriweather';
+	font-size: 12px;
+	text-align:left;
+}
+
+img {
+	width: 800px;
+	height: 500px;
+	margin: 20px;
+	text-align:center;
+}
+
 .check{
 	color:#8f1818 !important;
 	/* border:1px solid #ddd; */
@@ -70,45 +98,37 @@ img {
  }
 .about {
 	text-align: center;
-	margin: 40px 40px;
+	margin: 0px 40px;
 	
 }
+.rrss {
+    	font-size: 1.4em;
+    	padding: 0em 2em 1.5em 2em;
+    	text-align: right;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
 
-.intro-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-top: 10px;
-}
-.social-button, .social-button:hover, .social-button:visited {
-    color: var(--accent);
-    margin: 0;
-    padding: 2px 5px;
-    transition: var(--fastFade);
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
-}
 .demo-icon {
 	color: rgb(0, 0, 0);
-   	font-family: "fontello";
-    	font-style: normal;
-    	font-weight: normal;
-    	speak: none;
-    	display: inline-block;
-    	text-decoration: inherit;
-    	width: 1em;
-    	margin-right: 0.2em;
-    	text-align: center;
-    	/* opacity: .8; */
-    	font-variant: normal;
-    	text-transform: none;
-    	line-height: 1em;
-    	margin-left: 0.2em;
-    	/* font-size: 120%; */
-    	-webkit-font-smoothing: antialiased;
-    	-moz-osx-font-smoothing: grayscale;
-    	/* text-shadow: 1px 1px 1px rgb(127 127 127 / 30%); */
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    /* opacity: .8; */
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    /* font-size: 120%; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-shadow: 1px 1px 1px rgb(127 127 127 / 30%); */
 }
 .publisher {
 	font-family: 'Merriweather';
@@ -134,13 +154,14 @@ img {
 }
 .about .hed {
 	width: 40%;
+	padding-right: 15px;
 	/*float: left;*/
 	vertical-align: top;
 	display: inline-block;
 }
 .about .content {
 	width: 50%;
-	padding-left: 0px;
+	padding-left: 10px;
 	display: inline-block;
 }
 .hed .me {
@@ -151,8 +172,9 @@ img {
 	border-radius: 50%;
 	box-shadow: -3px 3px 3px -2px #ccc; 
 	display:block;
-	margin-top: 20px;
-	margin-left: 20px
+	/*margin-top: 16px;
+	margin-bottom: 10px;*/
+	margin: 20px;
 }
 .subtitle {
 	letter-spacing: 1px;
@@ -160,11 +182,12 @@ img {
 	color:#555;
 	/*text-align: center;*/
 }
-
 div.award{
 	margin-top: 20px;
 	text-align:center;
 }
+
+
 .award .subtitle {
 	margin-top: 0px;
 }
@@ -332,6 +355,7 @@ strong{
 	border-top:thin solid;
 	border-bottom: thin solid;
 	border-color: #CCC;
+
 }
 */
 
@@ -357,9 +381,10 @@ strong{
 .post-list {
   margin-left: 0px;
   margin-right: 40px;
-  padding: 0px
+  padding: 0px;
   list-style: none;
-  text-align: center; }
+  text-align: center; 
+}
   .post-list > li {
 
     margin-bottom: 30px;
@@ -367,7 +392,8 @@ strong{
     width: 240px;
     vertical-align: top;
     margin: 20px;
-    text-align: center; }
+    text-align: center;
+ }
     .post-list > li .image {
       height: 180px;
       width: 240px;
