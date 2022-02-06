@@ -68,10 +68,10 @@ div.story-photo {
 	justify-content: center;
 }
 .full-bleed-image {
+    backgrouund: url('ofada.jpeg')
+    padding: 15em
     background-size: cover;
     background-position: center center;
-    width: 1800px;
-    length: 800px;
 }
 
 .full-bleed-image .image-text {
