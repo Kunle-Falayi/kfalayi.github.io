@@ -1,0 +1,260 @@
+,States,Zone,items,price
+0,Abia,South,Beans brown,765.9
+1,Abuja,North,Beans brown,703.2
+2,Anambra,South,Beans brown,904.8
+3,Ebonyi,South,Beans brown,892.2
+4,Enugu,South,Beans brown,854.7
+5,Imo,South,Beans brown,729.3
+6,A_Ibom,South,Beans brown,621.1
+7,Bayelsa,South,Beans brown,603.5
+8,C_River,South,Beans brown,617.5
+9,Delta,South,Beans brown,633.8
+10,Rivers,South,Beans brown,642.8
+11,Edo,South,Beans brown,600.3
+12,Adamawa,North,Beans brown,337.8
+13,Bauchi,North,Beans brown,234.5
+14,Borno,North,Beans brown,252.9
+15,Gombe,North,Beans brown,315.2
+16,Benue,North,Beans brown,341.8
+17,Taraba,North,Beans brown,269.3
+18,Yobe,North,Beans brown,255.9
+19,Kogi,North,Beans brown,339.2
+20,Kwara,North,Beans brown,362.5
+21,Nasarawa,North,Beans brown,279.6
+22,Niger,North,Beans brown,291.5
+23,Plateau,North,Beans brown,336.4
+24,Ekiti,South,Beans brown,460.0
+25,Lagos,South,Beans brown,449.6
+26,Ondo,South,Beans brown,504.9
+27,Ogun,South,Beans brown,511.2
+28,Osun,South,Beans brown,543.9
+29,Oyo,South,Beans brown,688.2
+30,Jigawa,North,Beans brown,411.1
+31,Kaduna,North,Beans brown,423.7
+32,Kano,North,Beans brown,418.7
+33,Katsina,North,Beans brown,375.0
+34,Kebbi,North,Beans brown,358.4
+35,Zamfara,North,Beans brown,464.3
+36,Sokoto,North,Beans brown,513.9
+37,Abia,South,Beef Bone in,1402.8
+38,Abuja,North,Beef Bone in,1887.7
+39,Anambra,South,Beef Bone in,1480.1
+40,Ebonyi,South,Beef Bone in,1559.8
+41,Enugu,South,Beef Bone in,1460.2
+42,Imo,South,Beef Bone in,1576.4
+43,A_Ibom,South,Beef Bone in,1311.3
+44,Bayelsa,South,Beef Bone in,1705.4
+45,C_River,South,Beef Bone in,1718.9
+46,Delta,South,Beef Bone in,1507.7
+47,Rivers,South,Beef Bone in,1534.8
+48,Edo,South,Beef Bone in,1622.1
+49,Adamawa,North,Beef Bone in,1092.5
+50,Bauchi,North,Beef Bone in,977.6
+51,Borno,North,Beef Bone in,1052.7
+52,Gombe,North,Beef Bone in,1210.8
+53,Benue,North,Beef Bone in,1195.5
+54,Taraba,North,Beef Bone in,981.0
+55,Yobe,North,Beef Bone in,1004.6
+56,Kogi,North,Beef Bone in,1196.3
+57,Kwara,North,Beef Bone in,1196.6
+58,Nasarawa,North,Beef Bone in,1098.9
+59,Niger,North,Beef Bone in,1164.6
+60,Plateau,North,Beef Bone in,1230.1
+61,Ekiti,South,Beef Bone in,1773.4
+62,Lagos,South,Beef Bone in,1520.8
+63,Ondo,South,Beef Bone in,1209.0
+64,Ogun,South,Beef Bone in,1746.3
+65,Osun,South,Beef Bone in,1124.9
+66,Oyo,South,Beef Bone in,1420.4
+67,Jigawa,North,Beef Bone in,1315.8
+68,Kaduna,North,Beef Bone in,1533.3
+69,Kano,North,Beef Bone in,1393.8
+70,Katsina,North,Beef Bone in,1325.9
+71,Kebbi,North,Beef Bone in,1697.0
+72,Zamfara,North,Beef Bone in,1650.0
+73,Sokoto,North,Beef Bone in,1401.5
+74,Abia,South,Ofada,537.0
+75,Abuja,North,Ofada,784.9
+76,Anambra,South,Ofada,482.8
+77,Ebonyi,South,Ofada,609.2
+78,Enugu,South,Ofada,555.6
+79,Imo,South,Ofada,484.9
+80,A_Ibom,South,Ofada,475.1
+81,Bayelsa,South,Ofada,605.3
+82,C_River,South,Ofada,422.0
+83,Delta,South,Ofada,435.5
+84,Rivers,South,Ofada,628.6
+85,Edo,South,Ofada,567.4
+86,Adamawa,North,Ofada,373.6
+87,Bauchi,North,Ofada,370.4
+88,Borno,North,Ofada,444.8
+89,Gombe,North,Ofada,410.6
+90,Benue,North,Ofada,345.0
+91,Taraba,North,Ofada,401.8
+92,Yobe,North,Ofada,388.6
+93,Kogi,North,Ofada,418.1
+94,Kwara,North,Ofada,387.6
+95,Nasarawa,North,Ofada,303.2
+96,Niger,North,Ofada,408.9
+97,Plateau,North,Ofada,480.4
+98,Ekiti,South,Ofada,540.9
+99,Lagos,South,Ofada,850.2
+100,Ondo,South,Ofada,496.0
+101,Ogun,South,Ofada,712.5
+102,Osun,South,Ofada,471.4
+103,Oyo,South,Ofada,650.2
+104,Jigawa,North,Ofada,428.0
+105,Kaduna,North,Ofada,390.8
+106,Kano,North,Ofada,374.8
+107,Katsina,North,Ofada,365.0
+108,Kebbi,North,Ofada,353.1
+109,Zamfara,North,Ofada,400.0
+110,Sokoto,North,Ofada,414.3
+111,Abia,South,Chicken Wings,1853.6
+112,Abuja,North,Chicken Wings,1758.5
+113,Anambra,South,Chicken Wings,1623.6
+114,Ebonyi,South,Chicken Wings,962.6
+115,Enugu,South,Chicken Wings,1533.3
+116,Imo,South,Chicken Wings,1515.8
+117,A_Ibom,South,Chicken Wings,1279.6
+118,Bayelsa,South,Chicken Wings,1781.9
+119,C_River,South,Chicken Wings,1553.4
+120,Delta,South,Chicken Wings,2025.5
+121,Rivers,South,Chicken Wings,1749.8
+122,Edo,South,Chicken Wings,2075.0
+123,Adamawa,North,Chicken Wings,495.7
+124,Bauchi,North,Chicken Wings,518.4
+125,Borno,North,Chicken Wings,511.7
+126,Gombe,North,Chicken Wings,546.7
+127,Benue,North,Chicken Wings,562.4
+128,Taraba,North,Chicken Wings,503.0
+129,Yobe,North,Chicken Wings,520.3
+130,Kogi,North,Chicken Wings,622.9
+131,Kwara,North,Chicken Wings,657.3
+132,Nasarawa,North,Chicken Wings,588.4
+133,Niger,North,Chicken Wings,724.3
+134,Plateau,North,Chicken Wings,612.1
+135,Ekiti,South,Chicken Wings,1650.0
+136,Lagos,South,Chicken Wings,1604.8
+137,Ondo,South,Chicken Wings,1700.0
+138,Ogun,South,Chicken Wings,1866.7
+139,Osun,South,Chicken Wings,1465.0
+140,Oyo,South,Chicken Wings,1290.0
+141,Jigawa,North,Chicken Wings,1492.0
+142,Kaduna,North,Chicken Wings,1280.0
+143,Kano,North,Chicken Wings,1135.0
+144,Katsina,North,Chicken Wings,1010.0
+145,Kebbi,North,Chicken Wings,1030.0
+146,Zamfara,North,Chicken Wings,1075.0
+147,Sokoto,North,Chicken Wings,1135.7
+148,Abia,South,Yam tuber,443.5
+149,Abuja,North,Yam tuber,428.1
+150,Anambra,South,Yam tuber,474.2
+151,Ebonyi,South,Yam tuber,420.5
+152,Enugu,South,Yam tuber,384.2
+153,Imo,South,Yam tuber,382.1
+154,A_Ibom,South,Yam tuber,530.2
+155,Bayelsa,South,Yam tuber,486.9
+156,C_River,South,Yam tuber,276.0
+157,Delta,South,Yam tuber,302.5
+158,Rivers,South,Yam tuber,603.6
+159,Edo,South,Yam tuber,476.1
+160,Adamawa,North,Yam tuber,128.2
+161,Bauchi,North,Yam tuber,127.5
+162,Borno,North,Yam tuber,130.0
+163,Gombe,North,Yam tuber,127.3
+164,Benue,North,Yam tuber,129.4
+165,Taraba,North,Yam tuber,126.1
+166,Yobe,North,Yam tuber,151.5
+167,Kogi,North,Yam tuber,144.0
+168,Kwara,North,Yam tuber,154.7
+169,Nasarawa,North,Yam tuber,138.1
+170,Niger,North,Yam tuber,136.5
+171,Plateau,North,Yam tuber,148.5
+172,Ekiti,South,Yam tuber,634.6
+173,Lagos,South,Yam tuber,623.0
+174,Ondo,South,Yam tuber,454.9
+175,Ogun,South,Yam tuber,361.1
+176,Osun,South,Yam tuber,435.2
+177,Oyo,South,Yam tuber,460.4
+178,Jigawa,North,Yam tuber,328.1
+179,Kaduna,North,Yam tuber,262.3
+180,Kano,North,Yam tuber,321.3
+181,Katsina,North,Yam tuber,348.1
+182,Kebbi,North,Yam tuber,370.6
+183,Zamfara,North,Yam tuber,324.9
+184,Sokoto,North,Yam tuber,389.7
+185,Abia,South,Catfish fresh,2016.7
+186,Abuja,North,Catfish fresh,1467.4
+187,Anambra,South,Catfish fresh,1991.9
+188,Ebonyi,South,Catfish fresh,1569.3
+189,Enugu,South,Catfish fresh,1810.6
+190,Imo,South,Catfish fresh,1776.4
+191,A_Ibom,South,Catfish fresh,1807.9
+192,Bayelsa,South,Catfish fresh,1546.3
+193,C_River,South,Catfish fresh,1633.4
+194,Delta,South,Catfish fresh,1368.6
+195,Rivers,South,Catfish fresh,1475.4
+196,Edo,South,Catfish fresh,1755.1
+197,Adamawa,North,Catfish fresh,816.7
+198,Bauchi,North,Catfish fresh,828.1
+199,Borno,North,Catfish fresh,766.4
+200,Gombe,North,Catfish fresh,759.5
+201,Benue,North,Catfish fresh,818.4
+202,Taraba,North,Catfish fresh,758.3
+203,Yobe,North,Catfish fresh,736.9
+204,Kogi,North,Catfish fresh,772.6
+205,Kwara,North,Catfish fresh,794.0
+206,Nasarawa,North,Catfish fresh,790.7
+207,Niger,North,Catfish fresh,842.7
+208,Plateau,North,Catfish fresh,873.3
+209,Ekiti,South,Catfish fresh,1250.0
+210,Lagos,South,Catfish fresh,1857.0
+211,Ondo,South,Catfish fresh,1329.6
+212,Ogun,South,Catfish fresh,1438.5
+213,Osun,South,Catfish fresh,1498.8
+214,Oyo,South,Catfish fresh,1248.4
+215,Jigawa,North,Catfish fresh,1351.4
+216,Kaduna,North,Catfish fresh,1250.0
+217,Kano,North,Catfish fresh,1320.0
+218,Katsina,North,Catfish fresh,1350.0
+219,Kebbi,North,Catfish fresh,1325.7
+220,Zamfara,North,Catfish fresh,1175.0
+221,Sokoto,North,Catfish fresh,1350.0
+222,Abia,South,Plantain ripe,365.6
+223,Abuja,North,Plantain ripe,429.2
+224,Anambra,South,Plantain ripe,488.5
+225,Ebonyi,South,Plantain ripe,371.6
+226,Enugu,South,Plantain ripe,416.3
+227,Imo,South,Plantain ripe,348.5
+228,A_Ibom,South,Plantain ripe,340.8
+229,Bayelsa,South,Plantain ripe,293.0
+230,C_River,South,Plantain ripe,200.1
+231,Delta,South,Plantain ripe,321.0
+232,Rivers,South,Plantain ripe,442.2
+233,Edo,South,Plantain ripe,455.7
+234,Adamawa,North,Plantain ripe,177.2
+235,Bauchi,North,Plantain ripe,180.2
+236,Borno,North,Plantain ripe,186.2
+237,Gombe,North,Plantain ripe,137.3
+238,Benue,North,Plantain ripe,184.2
+239,Taraba,North,Plantain ripe,179.8
+240,Yobe,North,Plantain ripe,181.3
+241,Kogi,North,Plantain ripe,176.1
+242,Kwara,North,Plantain ripe,187.6
+243,Nasarawa,North,Plantain ripe,179.3
+244,Niger,North,Plantain ripe,185.9
+245,Plateau,North,Plantain ripe,189.2
+246,Ekiti,South,Plantain ripe,310.0
+247,Lagos,South,Plantain ripe,381.3
+248,Ondo,South,Plantain ripe,284.0
+249,Ogun,South,Plantain ripe,366.8
+250,Osun,South,Plantain ripe,276.2
+251,Oyo,South,Plantain ripe,284.2
+252,Jigawa,North,Plantain ripe,250.8
+253,Kaduna,North,Plantain ripe,246.0
+254,Kano,North,Plantain ripe,300.0
+255,Katsina,North,Plantain ripe,330.8
+256,Kebbi,North,Plantain ripe,323.1
+257,Zamfara,North,Plantain ripe,248.0
+258,Sokoto,North,Plantain ripe,350.0
