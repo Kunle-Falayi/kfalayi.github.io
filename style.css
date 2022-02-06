@@ -67,6 +67,15 @@ div.story-photo {
 	display: flex;
 	justify-content: center;
 }
+.full-bleed-image {
+    background-size: cover;
+    background-position: center center;
+}
+
+.full-bleed-image .image-text {
+    color: white;
+    text-shadow: 0 0 20px black;
+}
 
 div.animation{
 	display: flex;
