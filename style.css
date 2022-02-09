@@ -49,12 +49,44 @@ p {
 	text-align: justify;
 }
 
+.fa {
+	padding: 10px;
+	font-size: 20px;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30%;
+	margin: 5px 2px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-twitter {
+	background: #5f1d14;
+	color: white;
+  }
+  
+  .fa-linkedin {
+	background: #5f1d14;
+	color: white;
+  }
+.fa-envelope {
+	background: #5f1d14;
+	color: white;
+  }
+  
+ 
+
 a {
 	font-family: 'Montserrat';
 	font-weight: 700;
     	color: #428bca;
     	text-decoration: none;
 }
+
 div.center {
 	margin-top: 20px;
 	margin-bottom: 0px;
@@ -279,22 +311,6 @@ hr {
 	}
 }
 
-/*.job {
-	text-align: center;
-	box-shadow: 0px 0px 1px 1px #ccc; 
-	margin: 1em 0em;
-	padding: 1em .5em; 
-	
-}
-*/
-/*.project {
-	box-shadow: 0px 0px 5px 1px #ccc; 
-	margin: 2em 0em;
-	
-	padding: .5em 1.3em; 
-	
-}
-*/
 
 
 .job .place {
@@ -365,14 +381,6 @@ strong{
 	
 	width:50%;
 }
-/*
-.section-head {
-	border-top:thin solid;
-	border-bottom: thin solid;
-	border-color: #CCC;
-
-}
-*/
 
 .project .sample {
 	width:100%;
