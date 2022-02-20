@@ -101,14 +101,7 @@ div.story-photo {
 	display: flex;
 	justify-content: center;
 }
-.full-ofada-photo {
-	background: url('ofada.jpeg');
-    padding: 25em;
-    background-size: cover;
-    background-position: center center;
-}
-.full-hispanic-photo {
-	background: url('hispanic_worker.jpeg');
+.full-bleed-image {
     padding: 25em;
     background-size: cover;
     background-position: center center;
