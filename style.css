@@ -45,7 +45,7 @@ span.name {
 	text-align: center;
 }
 p {
-	margin-left: auto;
+	margin: 20;
 	font-family: 'Merriweather';
 	text-align: justify;
 }
