@@ -411,7 +411,7 @@ strong{
   text-align: center; 
 }
   .post-list > li {
-
+   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
     display: inline-block;
     width: 240px;
