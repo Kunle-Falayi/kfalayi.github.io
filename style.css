@@ -114,8 +114,8 @@ div.story-photo {
     text-shadow: 0 0 20px black;
 }
 .story-body {
-	margin-right: 240px;
-	margin-left: 240px;
+	max-width: 709px;
+	margin: 0 auto;
 }
 div.animation{
 	display: flex;
