@@ -286,14 +286,18 @@ hr {
 
 }
 
-@media (min-width: 768px){
+@media (min-width: 560px){
+	.row-container {
+	}
 	.about{
 		
 	margin-left:15%;
 	margin-right:15%;
 	}
 }
-@media (max-width: 560px) {
+@media (max-width: 768px) {
+	.row-container {
+	}
 	.about {
 	}
 	.top .subtitle {
