@@ -68,17 +68,17 @@ p {
   }
   
   .fa-twitter {
-	background: #ffffff;
+	background: #f8f6f6;
 	color: rgb(3, 3, 3);
   }
   
   .fa-linkedin {
-	background: #ffffff;
+	background: #f8f6f6;
 	color: rgb(3, 3, 3);
   }
   
 .fa-envelope {
-	background: #ffffff;
+	background: #f8f6f6;
 	color: rgb(3, 3, 3);
   }
   
@@ -130,9 +130,10 @@ div.animation{
 
 img {
 	width: 800px;
-	height: 500px;
-	margin: 20px;
+	/*height: 500px;*/
+	/*margin: 20px;*/
 	text-align:center;
+
 }
 
 .check{
@@ -296,6 +297,9 @@ hr {
 	}
 }
 @media (max-width: 768px) {
+	#g-us_Dollar-mobile{
+		display: block;
+	}
 	.row-container {
 	}
 	.about {
