@@ -153,10 +153,10 @@ map2.on("load", function () {
 
 map2.on('click', 'brutality_incident', function (e) {
   var state = e.features[0].properties.state;
-  var incident= e.features[0].properties.description;
+  var incident = e.features[0].properties.description;
   new mapboxgl.Popup()
       .setLngLat(e.lngLat)
-      .setHTML('<h2>' + state + '</h2>'
+      .setHTML('<h3>' + state + '</h3>'
           + '<p>' + incident + '</p>')
       .addTo(map2);
 });
