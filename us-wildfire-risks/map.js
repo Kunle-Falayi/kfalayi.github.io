@@ -121,20 +121,20 @@ map2.on('load', function () {
         }
     }
 
-//     map2.addLayer(
-//     {
-//         id: "cali_wildfire_layer",
-//         type: "fill",
-//         source: {
-//         type: "geojson",
-//         data: "data/caliData.geojson",
-//         },
-//         maxzoom: 5,
-//         paint: {
-//         "fill-color": '#fc4e2a',
-//         "fill-opacity": 0.75
-//         }
-//     }, 'waterway-label');
+    map2.addLayer(
+    {
+        id: "cali_wildfire_layer",
+        type: "fill",
+        source: {
+        type: "geojson",
+        data: "data/caliData.geojson",
+        },
+        maxzoom: 5,
+        paint: {
+        "fill-color": '#fc4e2a',
+        "fill-opacity": 0.75
+        }
+    }, 'waterway-label');
 
 
     map2.addLayer(
@@ -145,7 +145,7 @@ map2.on('load', function () {
             type: "geojson",
             data: "data/caliCounties.geojson",
           },
-          minzoom: 4,
+          minzoom: 5,
           paint: {
             "line-color": "#ffffff",
             "line-width": 0.25,
@@ -164,7 +164,7 @@ map2.on('load', function () {
             type: "geojson",
             data: "data/caliCounties.geojson",
           },
-          minzoom: 4,
+          minzoom: 5,
           paint: {
             "fill-color": [
                 'interpolate',
