@@ -129,7 +129,7 @@ map2.on('load', function () {
         type: "geojson",
         data: "data/caliData.geojson",
         },
-        maxzoom: 5,
+        maxzoom: 6,
         paint: {
         "fill-color": '#fc4e2a',
         "fill-opacity": 0.75
@@ -145,7 +145,7 @@ map2.on('load', function () {
             type: "geojson",
             data: "data/caliCounties.geojson",
           },
-          minzoom: 5,
+          minzoom: 6,
           paint: {
             "line-color": "#ffffff",
             "line-width": 0.25,
@@ -164,7 +164,7 @@ map2.on('load', function () {
             type: "geojson",
             data: "data/caliCounties.geojson",
           },
-          minzoom: 5,
+          minzoom: 6,
           paint: {
             "fill-color": [
                 'interpolate',
