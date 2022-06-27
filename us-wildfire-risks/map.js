@@ -137,54 +137,54 @@ map2.on('load', function () {
     }, 'waterway-label');
 
 
-    map2.addLayer(
-        {
-          id: "cali_counties_outline",
-          type: "line",
-          source: {
-            type: "geojson",
-            data: "data/caliCounties.geojson",
-          },
-          minzoom: 5,
-          paint: {
-            "line-color": "#ffffff",
-            "line-width": 0.25,
-          },
-        },
-        "cali_wildfire_layer"
-    );
+//     map2.addLayer(
+//         {
+//           id: "cali_counties_outline",
+//           type: "line",
+//           source: {
+//             type: "geojson",
+//             data: "data/caliCounties.geojson",
+//           },
+//           minzoom: 5,
+//           paint: {
+//             "line-color": "#ffffff",
+//             "line-width": 0.25,
+//           },
+//         },
+//         "cali_wildfire_layer"
+//     );
 
 
 
-    map2.addLayer(
-        {
-          id: "cali_counties",
-          type: "fill",
-          source: {
-            type: "geojson",
-            data: "data/caliCounties.geojson",
-          },
-          minzoom: 5,
-          paint: {
-            "fill-color": [
-                'interpolate',
-                ['linear'],
-                ['get', 'Expected Annual HU Exposed'],
-                46.8,
-                '#ffffb2',
-                49,
-                '#fed976',
-                109.8,
-                '#feb24c',
-                171.8,
-                '#fd8d3c',
-                3416,
-                '#fc4e2a',
-              ],
-            "fill-opacity": 0.75,
-          },
+//     map2.addLayer(
+//         {
+//           id: "cali_counties",
+//           type: "fill",
+//           source: {
+//             type: "geojson",
+//             data: "data/caliCounties.geojson",
+//           },
+//           minzoom: 5,
+//           paint: {
+//             "fill-color": [
+//                 'interpolate',
+//                 ['linear'],
+//                 ['get', 'Expected Annual HU Exposed'],
+//                 46.8,
+//                 '#ffffb2',
+//                 49,
+//                 '#fed976',
+//                 109.8,
+//                 '#feb24c',
+//                 171.8,
+//                 '#fd8d3c',
+//                 3416,
+//                 '#fc4e2a',
+//               ],
+//             "fill-opacity": 0.75,
+//           },
 
-    }, 'cali_counties_outline');
+//     }, 'cali_counties_outline');
 
 });
 
