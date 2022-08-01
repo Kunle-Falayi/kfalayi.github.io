@@ -1,5 +1,5 @@
 ;(function () {
-    const margin = { top: 20, right: 50, bottom: 50, left: 50 }
+    const margin = { top: 20, right: 70, bottom: 50, left: 50 }
 
     const width = 700 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom;
@@ -126,7 +126,7 @@
             .style('fill', '#d8d6d6')
             .attr('class', 'label hidden');
         label9 = svg.append('text') // assigning my label to the variable up top
-            .text("South Africa")
+            .text("S'Africa")
             .attr('x', xPositionScale(parseDate(2019)))
             .attr('y', yPositionScale(0.1967182))
             .style('fill', '#d8d6d6')

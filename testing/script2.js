@@ -1,5 +1,5 @@
 const width = 1000;
-const height = 620;
+const height = 630;
 const margin = {top: 10, right: 50, bottom: 50, left: 100};
 const companyProperties = [
         {name: 'Country', property: 'country'},
@@ -205,7 +205,13 @@ function renderChart(dataLoad, opts = {update: false}) {
 		  .attr('x', width/10)
 		  .attr('y', 615)
 		  .style('fill', 'rgb(219, 217, 217)')
-		  .text('Note: Solution focus is based on CB Insights broad categories')
+		  .text('Note: Solution focus is based on CB Insights broad categories.')
+		svg.append("text")
+		  .style('font-size', '12px')
+		  .attr('x', width/10)
+		  .attr('y', 627)
+		  .style('fill', 'rgb(219, 217, 217)')
+		  .text('Some startups show zero funding because they do not make funding raised public')
 		  
 		  
 
