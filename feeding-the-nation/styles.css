@@ -36,6 +36,8 @@ h3 {
 h2 {
     text-align: center;
     opacity: 100%;
+    width: 50%;
+    margin: 0 Auto;
 }
 
 .story {
