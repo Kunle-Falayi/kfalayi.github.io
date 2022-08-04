@@ -426,6 +426,6 @@ shape-rendering: crispEdges;
 }
 
 canvas.marks {
-  max-width: 100%!important;
+  max-width: 120%!important;
   height: auto!important;
 }
