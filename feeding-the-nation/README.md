@@ -1,4 +1,4 @@
-# Feeding-the-nation — Data journalism thesis
+# Feeding-a-nation — Data journalism thesis
 
 ## How I found this idea
 I wanted to write an original story, preferably one that contributes to the understanding of a simple subject with high importance in Africa. 
