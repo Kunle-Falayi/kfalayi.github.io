@@ -19,7 +19,7 @@ Apart from [CB Insights](https://app-cbinsights-com.ezproxy.cul.columbia.edu/cxn
 
 ## Analysis and hypothesis
 After I downloaded the database and cleaned up the dataset by standardizing country names, I did some basic analysis on the dataset. I tried to the distribution of agriculture startups by country and funding to see how much funding are raised by startups from different parts of the world. Then I analyzed their solution focus to see what is getting most money. An image immediately appeared. Despite all the stories about African agriculture startups raising so much money, a very tiny portion of startup fundings globally are going to Africa. 
-![Agriculture funding by continent](images/funding.png)
+![Funding per solution focus for Africa's top 12 agritech startups](images/funding.png)
 I decided to form my idea around this. But this idea was still too general. CB Insights provide broad categorization of solution focus of each startup. I decided to manually recategorize the solution focus of each African agriculture startup for easy understanding. This required finding what each company does on Google. I then came up with the following categories: biotech, agriculture data, animal feed production, business planning and finance, food production, packing and supply chain, processing and export, software and hardware.
 ![Agriculture funding by continent](images/top12.png)
 
@@ -28,4 +28,4 @@ My next step was to find out what the entrepreneurs and investors on the ground 
 
 ## Choosing the right visualization
 I spent a long time deciding how best to show the size of funding and also be able to incorporate elements such as countries and continents of each agritech company. I wanted to use a map. But I couldn't convince myself how a choropleth map or a bubble map would do justice to what I needed to show. I spent a long time scouring Observable to find inspiration and I finally chanced on Dea Bankova's [chart](https://observablehq.com/@deaxmachina/fortune-1000-us-companies-2020). Props to you Dea for such amazing portfolio. So, apart from this, I used D3 for the animated line chart while datawrapper for the other two simple bar charts. 
-
+![Bubble chart of all agritech startups](images/viz.png)
