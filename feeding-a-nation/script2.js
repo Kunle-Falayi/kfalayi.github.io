@@ -7,7 +7,7 @@ const companyProperties = [
         {name: 'Funding', property: 'funding'}
       ];
 
-const widthTooltip = 250;
+const widthTooltip = 230;
 const backgroundCol = "#ffffff";
 const accentCol = "#ffffff";
 const fontSize = "14px";
