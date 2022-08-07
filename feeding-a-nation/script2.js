@@ -150,15 +150,7 @@ function renderChart(dataLoad, opts = {update: false}) {
 		  .attr("stroke-width", 4)
 		  .attr("stroke", circleBaseColour)
 		)
-		// .call(g => g.append("text")
-		// 	.attr("x", 100)
-		// 	.attr("y", 15)
-		// 	.attr('font-size', '12px')
-		// 	.attr("fill", "currentColor")
-		// 	.attr("text-anchor", "start")
-		// 	.style('fill', 'rgb(219, 217, 217)')
-		// 	.text('Source: CB Insights | Kunle Falayi')
-		// )
+
 	  
 
 		/// Call the axes ///
