@@ -63,12 +63,14 @@
         const yAxis = d3.axisLeft(yPositionScale).tickFormat(formatPercent); //or .tickFormat(function(d){return d+ "%"});
         svg.append("g")
             .attr("class", "axis y-axis")
+            .attr("class", "axisWhite")
             .call(yAxis)
             // .style("fill", "#d8d6d6")
 
         const xAxis = d3.axisBottom(xPositionScale)
         svg.append("g")
             .attr("class", "axis x-axis")
+            .attr("class", "axisWhite")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis)
             // .style("fill", "#d8d6d6")

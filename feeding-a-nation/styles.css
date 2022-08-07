@@ -429,3 +429,15 @@ canvas.marks {
   max-width: 120%!important;
   height: auto!important;
 }
+
+.axisWhite line{
+  stroke: #d8d6d6;
+}
+
+.axisWhite path{
+  stroke: #d8d6d6;
+}
+
+.axisWhite text{
+  stroke: #d8d6d6;
+}

@@ -1,6 +1,6 @@
 const width = 1000;
-const height = 630;
-const margin = {top: 10, right: 50, bottom: 50, left: 100};
+const height = 610;
+const margin = {top: 10, right: 50, bottom: 70, left: 100};
 const companyProperties = [
         {name: 'Country', property: 'country'},
         {name: 'Continent', property: 'continent'},
@@ -14,7 +14,7 @@ const fontSize = "14px";
 const borderRadius = 5;
 const circleBaseColour = "#6d98e8";
 const circleStrokeColour = "#fff";
-const circleWomanColour = "#f50c0c";
+const circleWomanColour = "#f45900";
 
 function renderOptions(data, countries, continent, solutions) {
 	const optionsEl = d3.select("#options");
@@ -127,9 +127,12 @@ function renderChart(dataLoad, opts = {update: false}) {
         .attr("transform", `translate(${0}, ${height - margin.bottom})`)
         .call(d3.axisBottom(xScale)
           .tickSizeOuter(0)
-          .ticks(8)
+        //   .ticks(8)
+		  .tickValues([50000000, 200000000, 400000000, 600000000, 800000000, 1000000000, 2000000000])
           .tickFormat(i => `$${d3.format(".2s")(i).replace("G", "B")}`) 
+		// console.log(xAxis)
         )
+
 		.call(g => g.selectAll(".tick line")
 		  .attr("y2", -height+100)
 		  .attr("opacity", 0.5)
@@ -197,19 +200,19 @@ function renderChart(dataLoad, opts = {update: false}) {
 		svg.append("text")
 		  .style('font-size', '12px')
 		  .attr('x', width/10)
-		  .attr('y', 600)
+		  .attr('y', 570)
 		  .style('fill', 'rgb(219, 217, 217)')
 		  .text('Source: CB Insights | Kunle Falayi')
 		svg.append("text")
 		  .style('font-size', '12px')
 		  .attr('x', width/10)
-		  .attr('y', 615)
+		  .attr('y', 585)
 		  .style('fill', 'rgb(219, 217, 217)')
 		  .text('Note: Solution focus is based on CB Insights broad categories.')
 		svg.append("text")
 		  .style('font-size', '12px')
 		  .attr('x', width/10)
-		  .attr('y', 627)
+		  .attr('y', 600)
 		  .style('fill', 'rgb(219, 217, 217)')
 		  .text('Some startups show zero funding because they do not make funding raised public')
 		  
